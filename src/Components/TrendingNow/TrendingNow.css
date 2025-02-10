@@ -1,0 +1,157 @@
+.movie-rank {
+  position: absolute;
+  bottom: 5px;
+  left: 5px; 
+  font-size: 80px; 
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  z-index: 2; 
+}
+
+.trending-now {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.trending-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.custom-arrow {
+  border-radius: 10%;
+  margin: 10px;
+  height: 110px;
+  width: 40px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgba(71, 67, 67, 0.411);
+}
+.movie-tags button{
+    background-color: rgba(175, 169, 169, 0.411);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    
+}
+
+
+.carousel-item-container {
+  display: flex;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.carousel-image-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.carousel-image {
+  width: 215px;
+  height: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.carousel-image:hover {
+  transform: scale(1.05);
+}
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background: black;
+  color: white;
+  width: 50%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-details h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.movie-info-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.movie-info-buttons span {
+  background: gray;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.modal-description {
+  font-size: 14px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.get-started-btn {
+  background: red;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.get-started-btn:hover {
+  background: darkred;
+}

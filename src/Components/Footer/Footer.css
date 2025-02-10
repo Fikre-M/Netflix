@@ -1,0 +1,82 @@
+.footer {
+    padding: 50px 15% 10px;
+    color: #eae7e7;
+}
+
+.footer h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer .footer-col {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.footer .footer-col a {
+    color: #e4dcdc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer .footer-col ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* Flex layout for row to wrap items */
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.language-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 575px) {
+    .footer {
+        padding: 30px 10px;
+    }
+
+    .footer h2 {
+        font-size: 16px;
+    }
+
+    .footer .footer-col {
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer .footer-col a {
+        font-size: 13px;
+    }
+}
+
+/* Medium Screen (Tablet) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .footer .footer-col {
+        flex: 0 0 48%; /* Making columns take almost half of the space */
+    }
+}
+
+/* Large Screen (Desktop) */
+@media (min-width: 768px) {
+    .footer .footer-col {
+        flex: 0 0 23%; /* Each column takes a quarter of the row */
+    }
+}

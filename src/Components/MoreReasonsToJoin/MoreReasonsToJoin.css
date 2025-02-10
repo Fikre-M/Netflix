@@ -1,0 +1,51 @@
+.more-reasons {
+  background-color: black;
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.reasons-title {
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.reasons-container {
+  display: flex;
+  justify-content: center; /* Centers the cards horizontally */
+  align-items: center;
+}
+
+.card {
+  background-color: #1E172C;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  background: none;
+  border-top: none;
+}
+
+.card-footer .btn-link {
+  font-size: 1.5rem;
+  color: red;
+}

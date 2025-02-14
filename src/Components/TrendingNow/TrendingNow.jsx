@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./TrendingNow.css";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
+const apiKey = import.meta.env.VITE_API_KEY;
+
 
 
 const TrendingNow = () => {

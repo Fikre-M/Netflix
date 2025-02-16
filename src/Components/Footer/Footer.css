@@ -1,6 +1,8 @@
 .footer {
     padding: 50px 15% 10px;
     color: #eae7e7;
+    background-color: black;
+    margin-bottom: -48px;
 }
 
 .footer h2 {

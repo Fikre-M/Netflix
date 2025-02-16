@@ -1,4 +1,151 @@
+.accordion {
+    width: 100%;
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0;
+}
 
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+    padding: 20px;
+    font-weight: 500;
+    background-color: #303030;
+    cursor: pointer;
+    margin-bottom: 2px;
+    position: relative;
+    transition: background 0.3s ease;
+}
+
+.accordion li label:hover {
+    background-color: #3a3a3a;
+}
+
+.accordion .icon {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.accordion .icon.open {
+    transform: rotate(180deg);
+}
+
+.accordion .content {
+    background: #303030;
+    padding: 0 20px;
+    text-align: left;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordion .content.show {
+    max-height: 500px;
+    padding: 20px;
+}
+
+.faq .emailsignup {
+    max-width: 600px;
+    margin: 20px auto 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq .emailsignup input {
+    flex: 1;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.faq .emailsignup button {
+    height: 50px;
+    background: #db0001;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.faq small {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #f4eeee;
+    text-align: center;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .accordion li label {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .accordion .icon {
+        font-size: 20px;
+    }
+
+    .faq .emailsignup {
+        flex-direction: column;
+    }
+
+    .faq .emailsignup input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .faq .emailsignup button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .accordion {
     width: 100%;
     max-width: 800px;
@@ -113,3 +260,4 @@ input[type="radio"] {
         width: 100%;
     }
 }
+ */

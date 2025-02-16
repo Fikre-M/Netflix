@@ -1,0 +1,118 @@
+/* Overall Page Layout */
+.signin-page {
+  background: #210716;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  padding: 20px 0;
+}
+
+.bglogo {
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Language Button */
+.language-button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.language-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content Section */
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; */
+}
+
+.plan-section {
+  display: flex;
+  justify-content: center;
+  /* grid-column: 1; */
+}
+.pricing-section {
+  
+  grid-column: 2;
+}
+/* Remove the divider column */
+.divider {
+  display: none;
+}
+
+.plan-box {
+  text-align: left;
+  max-width: 400px;
+}
+
+.plan-box h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.join-button {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.join-button:hover {
+  background: #b20710;
+}
+
+/* Divider */
+.divider {
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  height: 250px;
+  margin: 0 30px;
+}
+
+/* Pricing Section */
+.pricing-section {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.pricing-box h3 {
+  font-size: 16px;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 0;
+}
+
+.pricing-box span {
+  font-weight: bold;
+}

@@ -12,7 +12,7 @@ const Footer = () => {
           <Col xs={6} sm={3} className="footer-col">
             <ul>
               <li>
-                <a href="#">FAQ</a>
+                <a href="https://help.netflix.com/en/node/412">FAQ</a>
               </li>
               <li>
                 <a href="#">Account</a>

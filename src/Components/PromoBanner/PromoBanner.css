@@ -1,4 +1,7 @@
 /* Promo Banner Styling */
+.bannerContainer{
+  background-color: black;
+}
 .promo-banner {
   position: relative;
   background: linear-gradient(to right, #0f0f2d, #141431);
@@ -12,6 +15,9 @@
   margin: auto;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
+}
+.promo-banner:hover {
+  background: #1C193A;
 }
 
 /* Red Curved Line */
@@ -61,16 +67,16 @@
   background: #50526b;
 }
 
-
-
-
 .red-line {
   position: absolute;
-  top: 0;
+  top: -3px;
   left: 0;
   width: 100%;
   height: 6px;
   background: linear-gradient(to right, #ff0000, #d00000);
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+  z-index: 1;
 }
+
+

@@ -17,7 +17,8 @@
 
 .trending-title {
   font-size: 2rem;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin: 10px 0px 10px 60px;
 }
 
 .carousel-wrapper {

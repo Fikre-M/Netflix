@@ -2,10 +2,17 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import "./Footer.css";
+import { Link } from "react-router-dom";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="social-media">
+          <FaFacebook /> 
+          <FaInstagram />
+          <FaYoutube />
+      </div>
       <h2>Questions? Call 1-234-567-8910</h2>
       <Container>
         <Row>
@@ -92,9 +99,11 @@ const Footer = () => {
         variant="outline-light"
         aria-label="Change language"
       >
-        አማርኛ English <ArrowDropDownIcon />
+        English <ArrowDropDownIcon />
       </Button>
-    </footer>
+      <br />
+      <br />
+      </footer>
   );
 };
 

@@ -13,10 +13,11 @@ const PromoBanner = () => {
   return (
     <div className="bannerContainer">
       <div className="promo-banner">
+        
         <svg className="red-line" viewBox="0 0 1440 320">
           <path fill="#ff0000" d="M0,256L1440,160L1440,0L0,0Z"></path>
         </svg>
-
+    
         <img src={popcornimg} alt="Popcorn Icon" className="popcorn-icon" />
 
         <div className="promo-text">

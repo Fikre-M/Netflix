@@ -5,6 +5,23 @@
     margin-bottom: -48px;
 }
 
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align to the left */
+    margin-top: -40px; /* Move the div up */
+    gap: 10px; /* Space between the icons and text */
+}
+.social-icon {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); 
+}
+
+
 .footer h2 {
     font-size: 18px;
     margin-bottom: 30px;

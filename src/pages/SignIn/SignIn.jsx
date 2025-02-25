@@ -1,30 +1,3 @@
-// import React from "react";
-// import styles from "./SignIn.module.css";
-
-// const SignIn = () => {
-//   return (
-    
-//     <div className={styles["signin-container"]}>
-//       <h2>Sign In to Netflix</h2>
-//       <form className={styles["signin-form"]}>
-//         <input type="email" placeholder="Email or phone number" />
-//         <input type="password" placeholder="Password" />
-//         <button type="submit">Sign In</button>
-//       </form>
-//       <p>
-//         New to Netflix? <a href="#">Sign up now</a>
-//       </p>
-//     </div>
-//   );
-// };
-
-// export default SignIn;
-
-
-
-
-
-
 import React from "react";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";

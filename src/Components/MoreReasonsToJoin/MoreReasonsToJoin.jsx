@@ -9,7 +9,7 @@ const MoreReasonsToJoin = () => {
       <h2 className="reasons-title">More Reasons to Join</h2>
       <Row xs={1} sm={2} md={3} lg={4} className="g-4">
         {moredata.map((reason, idx) => {
-          const IconComponent = reason.icon; // Store the icon component
+          const IconComponent = reason.icon; 
           return (
             <Col key={idx}>
               <Card className="h-100">
@@ -19,7 +19,7 @@ const MoreReasonsToJoin = () => {
                 </Card.Body>
                 <Card.Footer>
                   <Button variant="link" className="float-end">
-                    <IconComponent /> {/* Render as a JSX component */}
+                    <IconComponent /> 
                   </Button>
                 </Card.Footer>
               </Card>

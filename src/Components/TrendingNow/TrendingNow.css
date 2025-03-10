@@ -1,3 +1,9 @@
+.trending-now {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
 .movie-rank {
   position: absolute;
   bottom: 5px;
@@ -7,12 +13,6 @@
   color: white;
   text-shadow: 5px 5px 10px black;
   z-index: 2; 
-}
-
-.trending-now {
-  padding: 20px;
-  background-color: black;
-  color: white;
 }
 
 .trending-title {
@@ -53,7 +53,7 @@
 
 .carousel-item-container {
   display: flex;
-  gap: 15px;
+  gap: 25px;
   overflow: hidden;
 }
 

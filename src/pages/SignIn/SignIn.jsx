@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import styles from "./SignIn.module.css";
-import bgLogo from "../../assets/Images/icons/Netflix_Logo_PMS.png";
+import bgLogo from "../../assets/Images/icons/ccg.JPG";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 

@@ -13,7 +13,7 @@ body {
 .header {
   width: 100%;
   min-height: 100vh; /* Changed from height to min-height */
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../assets/Images/home/Netfil_BG_img.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../assets/Images/home/bgc.jpg');
   background-size: cover;
   background-position: center;
   padding: 10px 8%;

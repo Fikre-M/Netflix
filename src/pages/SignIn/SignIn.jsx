@@ -59,7 +59,7 @@ const SignIn = () => {
             <Col md={5} className={styles["pricing-section"]}>
               <div className={styles["pricing-box"]}>
                 <h3>
-                  Monthly price <span>$7.99</span>
+                  Monthly  <span>$.99</span>
                 </h3>
                 <h3>
                   Ads <span>Short and seamless</span>
@@ -68,7 +68,7 @@ const SignIn = () => {
                   Resolution <span>1080p (Full HD)</span>
                 </h3>
                 <h3>
-                  Devices your household can watch at the same time{" "}
+                  Devices your household can watch{" "}
                   <span>2</span>
                 </h3>
                 <h3>

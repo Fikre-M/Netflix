@@ -12,7 +12,7 @@ const faqdata = [
   {
     question: "Where can I watch?",
     answer:
-      "Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com or on any internet-connected device.",
+      "Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at apple or on any internet-connected device.",
   },
   {
     question: "How do I cancel?",

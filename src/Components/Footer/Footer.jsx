@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="social-media">
-          <FaFacebook /> 
-          <FaInstagram />
-          <FaYoutube />
+        <FaFacebook />
+        <FaInstagram />
+        <FaYoutube />
       </div>
       <h2>Questions? Call 1-234-567-8910</h2>
       <Container>
@@ -19,7 +19,7 @@ const Footer = () => {
           <Col xs={6} sm={3} className="footer-col">
             <ul>
               <li>
-                <a href="https://help.netflix.com/en/node/412">FAQ</a>
+                <a href="https://knoweledagebased.com/">Go to my Portfolio</a>
               </li>
               <li>
                 <a href="#">Account</a>
@@ -103,7 +103,7 @@ const Footer = () => {
       </Button>
       <br />
       <br />
-      </footer>
+    </footer>
   );
 };
 
